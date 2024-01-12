@@ -8,7 +8,8 @@ export default defineConfig({
 		'Documentation, updates and everything else during my time at ITP.',
 	srcDir: 'src',
 	ignoreDeadLinks: 'localhostLinks',
-	head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+	cleanUrls: true,
+	head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [

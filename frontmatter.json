@@ -50,6 +50,10 @@
     {
       "title": "src",
       "path": "[[workspace]]/src"
+    },
+    {
+      "title": "pcomp",
+      "path": "[[workspace]]/src/pcomp"
     }
   ]
 }

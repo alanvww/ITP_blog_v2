@@ -1,6 +1,4 @@
 ---
-tags:
-  - PComp
 ---
 
 # Markdown Extension Examples
