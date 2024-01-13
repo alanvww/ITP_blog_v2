@@ -4,4 +4,4 @@
  
 
 [build.environment]
-   BUN_FLAGS
+     BUN_FLAGS = ""
