@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import { markdown } from './config/markdown';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -32,4 +33,5 @@ export default defineConfig({
 			provider: 'local',
 		},
 	},
+	markdown: markdown, // Markdown配置
 });
