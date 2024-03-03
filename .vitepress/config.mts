@@ -75,9 +75,13 @@ export default defineConfig({
 				collapsed: false,
 			}),
 		},
-		socialLinks: [],
+		socialLinks: [{ icon: 'github', link: 'https://github.com/alanvww' }],
 		search: {
 			provider: 'local',
+		},
+		footer: {
+			message: 'Made with ❤️ by Alan Ren, powered by VitePress',
+			copyright: 'Copyright © 2023-present',
 		},
 	},
 	markdown: markdown, // Markdown配置
