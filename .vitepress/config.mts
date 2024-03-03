@@ -12,6 +12,7 @@ export default defineConfig({
 	ignoreDeadLinks: 'localhostLinks',
 	cleanUrls: true,
 	head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
+	lastUpdated: true,
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
@@ -82,6 +83,9 @@ export default defineConfig({
 		footer: {
 			message: 'Made with ❤️ by Alan Ren, powered by VitePress',
 			copyright: 'Copyright © 2023-present',
+		},
+		editLink: {
+			pattern: 'https://github.com/alanvww/itp.alan.ooo/edit/main/src/:path',
 		},
 	},
 	markdown: markdown, // Markdown配置

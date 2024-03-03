@@ -10,6 +10,7 @@ export default {
 	Layout: () => {
 		return h(layout, null, {
 			// https://vitepress.dev/guide/extending-default-theme#layout-slots
+			'doc-bottom': () => h('div', 'Hello, World!'),
 		});
 	},
 	enhanceApp({ app, router, siteData }) {
