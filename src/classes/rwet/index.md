@@ -2,6 +2,8 @@
 # https://vitepress.dev/reference/default-theme-home-page
 ---
 
-# Intro to Computational Media
+# Reading and Writing Electronic Text
 
-- [Week 1](./week-1)
+## Weekly Posts
+
+## Projects

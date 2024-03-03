@@ -4,4 +4,8 @@
 
 # Intro to Computational Media
 
+## Weekly Posts
+
 - [Week 1](./week-1)
+
+## Projects

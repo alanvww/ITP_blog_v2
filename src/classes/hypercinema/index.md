@@ -2,6 +2,8 @@
 # https://vitepress.dev/reference/default-theme-home-page
 ---
 
-# Intro to Computational Media
+# Hypercinema
 
-- [Week 1](./week-1)
+## Weekly Posts
+
+## Projects

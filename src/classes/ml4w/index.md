@@ -2,6 +2,8 @@
 # https://vitepress.dev/reference/default-theme-home-page
 ---
 
-# Intro to Computational Media
+# Machine Learning for the Web
 
-- [Week 1](./week-1)
+## Weekly Posts
+
+## Projects
