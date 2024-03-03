@@ -8,4 +8,8 @@ prev: false
 
 ## Weekly Posts
 
-## Projects
+- [Blog Post - "A people's guide to AI"](./people-guide-to-ai.md)
+
+## Homework & Projects
+
+- [Water Break Timer - ml5.js & p5.js](./water-break-timer.md)

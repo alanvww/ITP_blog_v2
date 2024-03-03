@@ -9,9 +9,9 @@ tags:
 
 collaborated with Cory Lee
 
-![Testing 12V power supply with multimeter!](/assets/pcomp/week1/131694122532_.pic.jpg)
+![Testing 12V power supply with multimeter!](../../_images/pcomp/week1/131694122532_.pic.jpg)
 
-![testing](/assets/pcomp/week1/101694122530_.pic.jpg)
+![testing](../../_images/pcomp/week1/101694122530_.pic.jpg)
 
 Testing 12V power supply with multimeter
 
