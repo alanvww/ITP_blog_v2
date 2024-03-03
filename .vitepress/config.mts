@@ -50,6 +50,12 @@ export default defineConfig({
 				collapsible: true,
 				collapsed: false,
 			}),
+			'classes/pcomp': getSidebar({
+				contentRoot: '/src/',
+				contentDirs: ['classes/pcomp/'],
+				collapsible: true,
+				collapsed: false,
+			}),
 			'classes/re-decentralizing-the-web': getSidebar({
 				contentRoot: '/src/',
 				contentDirs: ['classes/re-decentralizing-the-web/'],
