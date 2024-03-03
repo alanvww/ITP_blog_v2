@@ -9,5 +9,6 @@ prev: false
 ## Weekly Posts
 
 - [Week 1](./week-1)
+- [Week 2](./week-2)
 
 ## Projects
