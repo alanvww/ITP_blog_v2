@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
 import { markdown } from './config/markdown';
+import { getSidebar } from 'vitepress-plugin-auto-sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,19 +16,59 @@ export default defineConfig({
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: 'Examples', link: '/markdown-examples' },
+			{ text: 'Portfolio', link: 'https://beta.alan.ooo' },
 		],
 
-		sidebar: [
-			{
-				text: 'Examples',
-				items: [
-					{ text: 'Markdown Examples', link: '/markdown-examples' },
-					{ text: 'Runtime API Examples', link: '/api-examples' },
-				],
-			},
-		],
-
+		sidebar: {
+			'classes/handheld': getSidebar({
+				contentRoot: '/src/',
+				contentDirs: ['classes/handheld/'],
+				collapsible: true,
+				collapsed: false,
+			}),
+			'classes/hypercinema': getSidebar({
+				contentRoot: '/src/',
+				contentDirs: ['classes/hypercinema/'],
+				collapsible: true,
+				collapsed: false,
+			}),
+			'classes/icm': getSidebar({
+				contentRoot: '/src/',
+				contentDirs: ['classes/icm/'],
+				collapsible: true,
+				collapsed: false,
+			}),
+			'classes/ml4w': getSidebar({
+				contentRoot: '/src/',
+				contentDirs: ['classes/ml4w/'],
+				collapsible: true,
+				collapsed: false,
+			}),
+			'classes/ml5-research': getSidebar({
+				contentRoot: '/src/',
+				contentDirs: ['classes/ml5-research/'],
+				collapsible: true,
+				collapsed: false,
+			}),
+			'classes/re-decentralizing-the-web': getSidebar({
+				contentRoot: '/src/',
+				contentDirs: ['classes/re-decentralizing-the-web/'],
+				collapsible: true,
+				collapsed: false,
+			}),
+			'classes/rwet': getSidebar({
+				contentRoot: '/src/',
+				contentDirs: ['classes/rwet/'],
+				collapsible: true,
+				collapsed: false,
+			}),
+			'classes/synthetic-architecture': getSidebar({
+				contentRoot: '/src/',
+				contentDirs: ['classes/synthetic-architecture/'],
+				collapsible: true,
+				collapsed: false,
+			}),
+		},
 		socialLinks: [],
 		search: {
 			provider: 'local',
