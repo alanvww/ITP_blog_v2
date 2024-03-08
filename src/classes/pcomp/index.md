@@ -11,3 +11,5 @@ prev: false
 - [Week 1](./week-1)
 
 ## Projects
+
+- [Gestura - wearable device for performing arts](./gestura)
