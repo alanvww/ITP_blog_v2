@@ -15,3 +15,5 @@ prev: false
 - [Water Break Timer - ml5.js & p5.js](./water-break-timer.md)
 
 - [Neural Network HandPose Train & Interactive Webcam Controller](./webcam-NN.md)
+
+- [Altify](./altify.md)
