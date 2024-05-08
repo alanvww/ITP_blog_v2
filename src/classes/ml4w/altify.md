@@ -1,13 +1,17 @@
 ---
+title: Altify
+preview: /![](/src/_images/ml4w/altify/phone-2.jpeg)src/_images/ml4w/altify/demo.png
+categories:
+  - ml4w
 ---
 
-# Altify
+# {{ $frontmatter.title }}
 
 ## Links
 
 [Repo Link](https://github.com/alanvww/altify)
 
-https://altify-ajr.netlify.app
+<https://altify-ajr.netlify.app>
 
 ![qrcode.png](../../_images//ml4w/altify/qr.png)
 

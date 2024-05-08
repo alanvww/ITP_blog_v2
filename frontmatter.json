@@ -48,8 +48,49 @@
   ],
   "frontMatter.content.pageFolders": [
     {
-      "title": "src",
-      "path": "[[workspace]]/src"
+      "title": "templates",
+      "path": "[[workspace]]/.frontmatter/templates"
+    },
+    {
+      "title": "classes",
+      "path": "[[workspace]]/src/classes"
+    },
+    {
+      "title": "handheld",
+      "path": "[[workspace]]/src/classes/handheld"
+    },
+    {
+      "title": "hypercinema",
+      "path": "[[workspace]]/src/classes/hypercinema"
+    },
+    {
+      "title": "icm",
+      "path": "[[workspace]]/src/classes/icm"
+    },
+    {
+      "title": "ml4w",
+      "path": "[[workspace]]/src/classes/ml4w"
+    },
+    {
+      "title": "ml5-research",
+      "path": "[[workspace]]/src/classes/ml5-research"
+    },
+    {
+      "title": "pcomp",
+      "path": "[[workspace]]/src/classes/pcomp"
+    },
+    {
+      "title": "re-decentralizing-the-web",
+      "path": "[[workspace]]/src/classes/re-decentralizing-the-web"
+    },
+    {
+      "title": "rwet",
+      "path": "[[workspace]]/src/classes/rwet"
+    },
+    {
+      "title": "synthetic-architecture",
+      "path": "[[workspace]]/src/classes/synthetic-architecture"
     }
-  ]
+  ],
+  "frontMatter.git.enabled": true
 }
