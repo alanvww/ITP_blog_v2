@@ -17,3 +17,5 @@ prev: false
 - [Neural Network HandPose Train & Interactive Webcam Controller](./webcam-NN.md)
 
 - [Altify](./altify.md)
+
+- [Look At You](./look-at-you.md)
